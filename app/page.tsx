@@ -13,7 +13,7 @@ export default function Home() {
             <SearchField />
           </div>
         </div>
-        <div className="bg-slate-100 border-2 border-cyan-600 w-96 my-6">
+        <div className="bg-slate-100 border-2 border-cyan-600 w-full my-6">
           <LivsmedelList />
         </div>
       </div>
