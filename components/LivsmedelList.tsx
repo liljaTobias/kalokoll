@@ -20,11 +20,11 @@ export const LivsmedelList = () => {
   return (
     <ul>
       {livsmedel?.map((lm) => (
-        <>
-          <li key={lm.Nummer}>{lm.Namn}</li>
+        <li key={lm.Nummer}>
+          {lm.Namn}
           <ul>{getNutrition(lm.Naringsvarden.Naringsvarde)}</ul>
           <hr />
-        </>
+        </li>
       ))}
     </ul>
   );
